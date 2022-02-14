@@ -81,6 +81,10 @@ body{
     background-size: 100%;
 
 }
+
+h2{
+    font-family: 'Kaushan Script', cursive;
+}
 .background
 {
     background: rgb(0,0,0.7) url('img.png');
