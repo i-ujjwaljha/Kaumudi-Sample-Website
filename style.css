@@ -7,7 +7,6 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 
 .logo
@@ -94,6 +93,7 @@ h2{
 
 .thstxt
 {
+    color: white;
     padding: 10px;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -102,6 +102,7 @@ h2{
 
 .thsmnth
 {
+    display: flex;
     background-color: #f0f333 ;
     align-items: center;
     width: 90%;
@@ -111,6 +112,7 @@ h2{
     border: 5px solid #000000;
     border-radius: 20px;
     padding: 10px;
+    box-shadow: 5px 5px 12px 0px #eee1e1;
     
 }
 
@@ -123,11 +125,23 @@ h2{
     
 }
 
-.thsmnthdetail
-{
+.thsmnthdetailbox{
     display: flex;
-    float: right;
-    justify-content:center;
+    background-color: white;
+    margin: 20px;
+    height: 372px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 3px 7px 15px 1px #000000;
+}
+
+/* .thsmnthdetail
+{
+    font-family: 'Permanent Marker', cursive;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-}
+} */
